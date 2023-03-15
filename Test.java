@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-class Main {
-    public static void main(String[] args) {
+public class Test {
+    public static void zegWat(){
 
         Scanner myName = new Scanner(System.in);
         System.out.print("Enter username: ");
@@ -11,7 +11,7 @@ class Main {
             sayHello(userName);
         }
 
-        int i = 0;
+        static var i = 0;
         while (i < 5) {
             sayHello(userName);
             i++;
